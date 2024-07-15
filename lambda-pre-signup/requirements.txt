@@ -1,0 +1,2 @@
+boto
+aws-lambda-powertools
