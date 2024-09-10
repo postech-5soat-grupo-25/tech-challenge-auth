@@ -40,7 +40,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "aws-terraform-state-storage"
+    bucket = "postech-5soat-grupo-25-tfstate"
     key    = "auth-infra/terraform.tfstate"
     region = "us-east-1"
   }
