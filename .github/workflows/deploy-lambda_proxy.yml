@@ -2,9 +2,7 @@ name: Deploy `proxy` Lambda
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - skip
+
 
 jobs:
   deploy:
